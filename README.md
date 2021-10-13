@@ -1,6 +1,6 @@
 # vscode-duplicate
 
-> Ability to duplicate files and directories in VS Code.
+Ability to duplicate files and directories in VS Code.
 
 ## Donate
 
@@ -12,8 +12,8 @@ If you want to thank me, or promote your Issue.
 
 ## Install
 
-  * Press <kbd>F1</kbd> and `select Extensions: Install Extensions`.
-  * Search for and select `duplicate`.
+* Press <kbd>F1</kbd> and `select Extensions: Install Extensions`.
+* Search for and select `duplicate`.
 
 See the [extension installation guide](https://code.visualstudio.com/docs/editor/extension-gallery) for details.
 
@@ -21,15 +21,15 @@ See the [extension installation guide](https://code.visualstudio.com/docs/editor
 
 The first option:
 
-  1. Hover on a file or directory name in explorer.
-  2. Right-click and select `Duplicate file`.
-  3. Enter the new path for the duplicate.
+1. Hover on a file or directory name in explorer.
+2. Right-click and select `Duplicate file`.
+3. Enter the new path for the duplicate.
 
 The second option:
 
-  1. Open the file.
-  2. Press `F1` and select `Duplicate file`.
-  3. Enter the new path for the duplicate.
+1. Open the file.
+2. Press `F1` and select `Duplicate file`.
+3. Enter the new path for the duplicate.
 
 ## About file extension
 
@@ -37,27 +37,27 @@ The second option:
 
 But you can use two special characters:
 
-  * `!!ext` – don't preserve original extension.
-  * `&&ext` – preserve original extension (available with `duplicate.keepOriginalExtension` option).
+* `!!ext` – don't preserve original extension.
+* `&&ext` – preserve original extension (available with `duplicate.keepOriginalExtension` option).
 
 For example:
 
-  * `nameOfFile!!ext` – create filepath without original extension
-  * `nameOfFile&&ext` – create filepath with original extension
+* `nameOfFile!!ext` – create filepath without original extension
+* `nameOfFile&&ext` – create filepath with original extension
 
 ## Supported settings
 
-#### duplicate.openFileAfterCopy
+### duplicate.openFileAfterCopy
 
-  * Type: `Boolean`
-  * Default: `true`
+* Type: `Boolean`
+* Default: `true`
 
 Automatically open newly copied files.
 
-#### duplicate.keepOriginalExtension
+### duplicate.keepOriginalExtension
 
-  * Type: `Boolean`
-  * Default: `true`
+* Type: `Boolean`
+* Default: `true`
 
 Keep original extension if it not specified.
 
